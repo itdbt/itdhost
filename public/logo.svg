@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="cyanBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <!-- Background Hexagon/Shield -->
+  <rect x="10" y="10" width="80" height="80" rx="20" fill="#0D1527" stroke="url(#cyanBlue)" stroke-width="4"/>
+  <!-- Server / Cloud Icon Nodes -->
+  <path d="M30 40H70M30 50H70M30 60H55" stroke="url(#cyanBlue)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="68" cy="60" r="4" fill="#06B6D4"/>
+  <!-- Lightning / Speed Accent -->
+  <path d="M48 24L38 46H52L46 68L64 42H50L56 24H48Z" fill="url(#cyanBlue)" opacity="0.9"/>
+</svg>
