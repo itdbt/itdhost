@@ -117,8 +117,8 @@ export const HOSTING_PLANS = [
     id: "host-starter",
     name: "Başlangıç Web Hosting",
     description: "Kişisel web siteleri, bloglar ve tekil projeler için ideal.",
-    priceMonthly: 2.49,
-    priceYearly: 1.79,
+    priceMonthly: 24.90,
+    priceYearly: 17.90,
     popular: false,
     specs: [
       { name: "Web Sitesi Barındırma", value: "1 Adet Site" },
@@ -135,8 +135,8 @@ export const HOSTING_PLANS = [
     name: "Profesyonel Hosting",
     badge: "En Çok Satan",
     description: "KOBİ'ler, e-ticaret siteleri ve yüksek ziyaretçi alan portallar için.",
-    priceMonthly: 4.49,
-    priceYearly: 3.49,
+    priceMonthly: 44.90,
+    priceYearly: 34.90,
     popular: true,
     specs: [
       { name: "Web Sitesi Barındırma", value: "5 Adet Site" },
@@ -153,8 +153,8 @@ export const HOSTING_PLANS = [
     id: "host-enterprise",
     name: "Kurumsal Mega Hosting",
     description: "Çoklu proje barındıran ajanslar ve kurumsal şirketler için.",
-    priceMonthly: 7.99,
-    priceYearly: 5.99,
+    priceMonthly: 79.90,
+    priceYearly: 59.90,
     popular: false,
     specs: [
       { name: "Web Sitesi Barındırma", value: "Limitsiz Site" },
