@@ -1,19 +1,17 @@
 # Devir Kaydı (HANDOFF)
 
 - **Güncelleyen Araç**: Antigravity
-- **Tarih / Saat**: 2026-10-05 15:11 (UTC+3)
+- **Tarih / Saat**: 2026-10-05 15:15 (UTC+3)
 - **Dal / HEAD**: main
-- **Aktif Görev**: İletişim bilgilerinin güncellenmesi ve Hosting fiyatlarının 10x artırılarak canlıya alınması
+- **Aktif Görev**: VPS / VDS fiyatlarının 10x artırılması ve canlıya alınması
 - **Önceden Var Olan Değişiklikler**: Yok
 - **Yapılanlar**:
-  - İletişim bilgileri güncellendi:
-    - Adres: `Fulya Mh. Büyükdere cd. No:76 Fairmont Quasar, D:118, Şişli İstanbul - Türkiye`
-    - Telefon: `0212 982 7266` (+90 (212) 982 72 66)
-    - WhatsApp: `905016045070` (https://wa.me/905016045070)
-  - Web Hosting fiyatları 10 katına çıkarıldı:
-    - Başlangıç Hosting: $24.90 / ay (Yıllık: $17.90 / ay)
-    - Profesyonel Hosting: $44.90 / ay (Yıllık: $34.90 / ay)
-    - Kurumsal Mega Hosting: $79.90 / ay (Yıllık: $59.90 / ay)
+  - Sanal Sunucu (VDS / VPS) paket fiyatları 10 katına çıkarıldı:
+    - Cloud VDS-1: $79.90 / ay (Yıllık: $59.90 / ay)
+    - Cloud VDS-2: $149.90 / ay (Yıllık: $119.90 / ay)
+    - Cloud VDS-3: $249.90 / ay (Yıllık: $199.90 / ay)
+    - Cloud VDS Ultra: $449.90 / ay (Yıllık: $369.90 / ay)
+  - İnteraktif Özel VDS Konfigüratör formülü (vCPU, RAM, Disk, Windows lisansı) 10 katına göre uyarlandı.
   - Yeni sürüm Cloudflare Edge üzerinde derlendi ve yayına alındı.
   - Değişiklikler GitHub `itdbt/itdhost` reposuna push edildi.
 - **Kontroller**:
