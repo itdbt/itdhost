@@ -7,5 +7,5 @@
   - Satış Akışı: Hızlı Teklif Alma modalı, WhatsApp doğrudan sipariş/destek hattı, kurumsal talep formu ve WHMCS/Müşteri Paneli köprüleri.
   - Tasarım Dili: Derin Gece Mavisi (#0B1120 / #0F172A) & Siber Camgöbeği/Neon Cyan (#06B6D4 / #38BDF8) premium datacenter & cloud teması.
 - **2026-10-05**: Fiyatlandırma USD ($) para birimine dönüştürüldü.
-- **2026-10-05**: Cloudflare Pages dağıtımı için `wrangler.toml`, `_redirects`, `_headers` ve `npm run deploy` otomasyonu hazırlandı.
 - **2026-10-05**: Proje GitHub'da `https://github.com/itdbt/itdhost` deposu olarak yayınlandı.
+- **2026-10-05**: Cloudflare üzerinde `ITD Bilişim - Cloudflare Paneli` hesabına doğrudan API/Wrangler ile deploy edildi. Canlı adres: `https://itd-host.bahadir-f53.workers.dev`.

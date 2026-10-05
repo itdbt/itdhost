@@ -1,18 +1,21 @@
 # Devir Kaydı (HANDOFF)
 
 - **Güncelleyen Araç**: Antigravity
-- **Tarih / Saat**: 2026-10-05 12:37 (UTC+3)
+- **Tarih / Saat**: 2026-10-05 14:50 (UTC+3)
 - **Dal / HEAD**: main
-- **Aktif Görev**: Projenin GitHub üzerinde yayınlanması (`https://github.com/itdbt/itdhost`)
+- **Aktif Görev**: Sitenin Cloudflare'e API ile deploy edilmesi
 - **Önceden Var Olan Değişiklikler**: Yok
 - **Yapılanlar**:
-  - `https://github.com/itdbt/itdhost` deposu GitHub API üzerinden oluşturuldu.
-  - Yerel `main` dalı `origin` (`https://github.com/itdbt/itdhost.git`) uzak deposuna push edildi.
-  - Fiyatlar USD ($) olarak güncellendi ve Cloudflare Pages dağıtım dosyaları (`wrangler.toml`, `_redirects`, `_headers`) eklendi.
+  - Cloudflare OAuth yetkilendirmesi tamamlandı (`ITD Bilişim - Cloudflare Paneli`, ID: `f53e1a4a936c428b84b0f78cd531a283`).
+  - `wrangler.toml` dosyası modern Workers Assets + SPA yönlendirme (`not_found_handling = "single-page-application"`) ile yapılandırıldı.
+  - `wrangler deploy` komutu ile site Cloudflare Edge ağına deploy edildi.
+  - Canlı bağlantı `https://itd-host.bahadir-f53.workers.dev` HTTP 200 OK ile doğrulandı.
+  - `package.json` deploy scripti `vite build && wrangler deploy` olarak güncellendi.
+  - Değişiklikler GitHub `itdbt/itdhost` reposuna push edildi.
 - **Kontroller**:
-  - `git push -u origin main` başarıyla tamamlandı.
-  - `npm.cmd run build` testi hatasız geçti.
+  - `Invoke-WebRequest -Uri "https://itd-host.bahadir-f53.workers.dev"` testi 200 OK döndü.
+  - `git push` senkronize edildi.
 - **Yayın Durumu**:
-  - GitHub: [https://github.com/itdbt/itdhost](https://github.com/itdbt/itdhost) yayında.
-  - Cloudflare Pages: GitHub deposu Cloudflare Dashboard'a doğrudan bağlanabilir veya `npm run deploy` çalıştırılabilir.
-- **Sıradaki Adım**: Cloudflare Dashboard'dan `itdhost` GitHub deposunu seçerek `itd.net.tr` alan adını bağlamak.
+  - Cloudflare Canlı URL: [https://itd-host.bahadir-f53.workers.dev](https://itd-host.bahadir-f53.workers.dev)
+  - GitHub Deposu: [https://github.com/itdbt/itdhost](https://github.com/itdbt/itdhost)
+- **Sıradaki Adım**: Cloudflare Dashboard'dan `itd-host` projesine `itd.net.tr` özel alan adını (Custom Domain) bağlamak.
