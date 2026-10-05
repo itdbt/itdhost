@@ -19,13 +19,13 @@ export default function VdsConfigurator({ onOpenContact }) {
     { name: 'Windows Server 2022/2025', type: 'windows', icon: '🪟' },
   ];
 
-  // Dynamic price formula (USD):
-  // Base $4 + (CPU * $1.5) + (RAM * $0.9) + (Disk * $0.04)
-  // If Windows, +$5.00 license fee
+  // Dynamic price formula (USD x10):
+  // Base $40 + (CPU * $15) + (RAM * $9) + (Disk * $0.40)
+  // If Windows, +$50.00 license fee
   const calculateCustomPrice = () => {
-    let base = 4 + (customCpu * 1.5) + (customRam * 0.9) + (customDisk * 0.04);
+    let base = 40 + (customCpu * 15) + (customRam * 9) + (customDisk * 0.40);
     if (selectedOs.includes('Windows')) {
-      base += 5;
+      base += 50;
     }
     const monthly = Number(base.toFixed(2));
     const yearly = Number((base * 0.8).toFixed(2)); // %20 discount

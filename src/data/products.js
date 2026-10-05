@@ -31,8 +31,8 @@ export const VDS_PLANS = [
     disk: "50 GB NVMe SSD",
     traffic: "2 TB Trafik",
     port: "1 Gbit/s Port",
-    priceMonthly: 7.99,
-    priceYearly: 5.99,
+    priceMonthly: 79.90,
+    priceYearly: 59.90,
     features: [
       "İstanbul Tier III Veri Merkezi",
       "Ücretsiz DDoS Koruması (Voxility)",
@@ -52,8 +52,8 @@ export const VDS_PLANS = [
     disk: "100 GB NVMe SSD",
     traffic: "4 TB Trafik",
     port: "1 Gbit/s Port",
-    priceMonthly: 14.99,
-    priceYearly: 11.99,
+    priceMonthly: 149.90,
+    priceYearly: 119.90,
     features: [
       "İstanbul Tier III Veri Merkezi",
       "Gelişmiş 10 Gbps DDoS Koruması",
@@ -74,8 +74,8 @@ export const VDS_PLANS = [
     disk: "200 GB NVMe SSD",
     traffic: "Limitsiz Trafik",
     port: "1 Gbit/s Port",
-    priceMonthly: 24.99,
-    priceYearly: 19.99,
+    priceMonthly: 249.90,
+    priceYearly: 199.90,
     features: [
       "İstanbul Tier III Veri Merkezi",
       "Gelişmiş 10 Gbps DDoS Koruması",
@@ -97,8 +97,8 @@ export const VDS_PLANS = [
     disk: "400 GB NVMe Gen4",
     traffic: "Limitsiz Trafik",
     port: "10 Gbit/s Port",
-    priceMonthly: 44.99,
-    priceYearly: 36.99,
+    priceMonthly: 449.90,
+    priceYearly: 369.90,
     features: [
       "İstanbul Tier III Veri Merkezi",
       "Özel Donanımsal DDoS Filtreleme",
