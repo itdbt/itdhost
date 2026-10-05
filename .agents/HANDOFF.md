@@ -1,21 +1,25 @@
 # Devir Kaydı (HANDOFF)
 
 - **Güncelleyen Araç**: Antigravity
-- **Tarih / Saat**: 2026-10-05 14:50 (UTC+3)
+- **Tarih / Saat**: 2026-10-05 15:11 (UTC+3)
 - **Dal / HEAD**: main
-- **Aktif Görev**: Sitenin Cloudflare'e API ile deploy edilmesi
+- **Aktif Görev**: İletişim bilgilerinin güncellenmesi ve Hosting fiyatlarının 10x artırılarak canlıya alınması
 - **Önceden Var Olan Değişiklikler**: Yok
 - **Yapılanlar**:
-  - Cloudflare OAuth yetkilendirmesi tamamlandı (`ITD Bilişim - Cloudflare Paneli`, ID: `f53e1a4a936c428b84b0f78cd531a283`).
-  - `wrangler.toml` dosyası modern Workers Assets + SPA yönlendirme (`not_found_handling = "single-page-application"`) ile yapılandırıldı.
-  - `wrangler deploy` komutu ile site Cloudflare Edge ağına deploy edildi.
-  - Canlı bağlantı `https://itd-host.bahadir-f53.workers.dev` HTTP 200 OK ile doğrulandı.
-  - `package.json` deploy scripti `vite build && wrangler deploy` olarak güncellendi.
+  - İletişim bilgileri güncellendi:
+    - Adres: `Fulya Mh. Büyükdere cd. No:76 Fairmont Quasar, D:118, Şişli İstanbul - Türkiye`
+    - Telefon: `0212 982 7266` (+90 (212) 982 72 66)
+    - WhatsApp: `905016045070` (https://wa.me/905016045070)
+  - Web Hosting fiyatları 10 katına çıkarıldı:
+    - Başlangıç Hosting: $24.90 / ay (Yıllık: $17.90 / ay)
+    - Profesyonel Hosting: $44.90 / ay (Yıllık: $34.90 / ay)
+    - Kurumsal Mega Hosting: $79.90 / ay (Yıllık: $59.90 / ay)
+  - Yeni sürüm Cloudflare Edge üzerinde derlendi ve yayına alındı.
   - Değişiklikler GitHub `itdbt/itdhost` reposuna push edildi.
 - **Kontroller**:
-  - `Invoke-WebRequest -Uri "https://itd-host.bahadir-f53.workers.dev"` testi 200 OK döndü.
-  - `git push` senkronize edildi.
+  - `wrangler deploy` hatasız tamamlandı.
+  - Canlı bağlantı `https://itd-host.bahadir-f53.workers.dev` 200 OK.
 - **Yayın Durumu**:
   - Cloudflare Canlı URL: [https://itd-host.bahadir-f53.workers.dev](https://itd-host.bahadir-f53.workers.dev)
   - GitHub Deposu: [https://github.com/itdbt/itdhost](https://github.com/itdbt/itdhost)
-- **Sıradaki Adım**: Cloudflare Dashboard'dan `itd-host` projesine `itd.net.tr` özel alan adını (Custom Domain) bağlamak.
+- **Sıradaki Adım**: Cloudflare Dashboard'dan `itd.net.tr` Custom Domain bağlantısını tanımlamak.
